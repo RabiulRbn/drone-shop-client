@@ -14,6 +14,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand className="logo" href="/home">Drone Shop</Navbar.Brand>
                     <Navbar.Toggle />
+                    {/* NAvbar  */}
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link className="nav-link" as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link className="nav-link" as={HashLink} to="/dashboard">Dashboard</Nav.Link>

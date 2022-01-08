@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const FooterCol = (props) => {
-    // console.log(props);
+    
     return (
         <div className="col-md-3 col-sm-6">
             <h4 className="text-White">{props.menuTitle} </h4>
